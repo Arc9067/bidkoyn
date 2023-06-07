@@ -21,11 +21,10 @@ const App = () => {
       .from(para.chars, {
         opacity: 0,
         stagger: 0.2,
-      })
-   
+      });
   }, []);
   return (
-    <div className="min-h-screen w-full text-primary">
+    <div className="min-h-screen w-full bg-primary text-black">
       <Hero />
     </div>
   );
