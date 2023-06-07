@@ -22,10 +22,7 @@ const App = () => {
         opacity: 0,
         stagger: 0.2,
       })
-      .from(".btn", {
-        opacity: 0,
-        xPercent: -100,
-      });
+   
   }, []);
   return (
     <div className="min-h-screen w-full text-primary">
